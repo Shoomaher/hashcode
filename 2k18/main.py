@@ -9,5 +9,5 @@ args = parser.parse_args()
 
 #test
 
-dataset.readfile(args.input)
+print(dataset.readfile(args.input))
 dataset.writefile(args.output)
