@@ -7,7 +7,6 @@ parser.add_argument("input", help="path to input file")
 parser.add_argument("output", help="path to output file")
 args = parser.parse_args()
 
-#test
-
 dataset.readfile(args.input)
 dataset.writefile(args.output)
+#Some changes
